@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Hello Git</title>
+	<style type="text/css">
 	h1{
 	color:blue;
 }
+p{
+	color:green;
+}
+article {
+	color: pink;
+}
+/* element with id=mainPoint*/
+.mainPoint.highpoint{
+	color :red;
+	font-style: 200px;
+}
+/*element with the class*/
+.highlight{
+	background-color: yellow;
+	
+}
+p.highlight{
+	font-size: 50px;
+}
+
+</style>
 </head>
 
 <body>
-	<header> company logo ,about this company purchase information. This is a header tag
+	<header > company logo ,about this company purchase information. This is a header tag
 	<nav>contains link of the site </nav>
 </header>
 
@@ -32,7 +55,7 @@
 <hr>
 <h2><q>Bad Girl</q></h2>
 <p>First of all, what does the word semantic mean? Well, definition of semantic is relating to meaning in language or logic. In other words, it has some inherent meaning, the names have some inherent meaning. Now when it applies to HTML,&quot; what does semantic html element mean?&quot; Well, a semantic html element is an element that implies some meaning to the content. In other words, it's an element that tells you something about the content, whether its importance, whether it's a little bit of its description, <q>it basically hints to you to that meaning. </q></p>
-<p>Items contain  the &lt; 20%  &amp;10% sale &gt;  </p>
+<p class="highlight">Items contain  the &lt; 20%  &amp;10% sale &gt;  </p>
 <ul><a href="https://www.google.com" title="google">www.google.com
 <div>good morning </div></a>
 	<li>pink</li>
@@ -50,5 +73,6 @@
 <a href="#section">#section</a>
 <img src="tree.jpg" height="500" width="1000" alt="tree image">
 <footer>&copy;copyright </footer>
+<span class="mainPoint highlight">hi there</span>
 </body>
 </html>
